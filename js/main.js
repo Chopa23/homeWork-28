@@ -11,13 +11,18 @@ console.log(cost.substring(1));
 //The substring() method returns the part of the string between the start and end indexes, or to the end of the string.
 
 let fruits = ["Apple", "Apricot", "Orange"];
+
+console.log(fruits);
+
 fruits.pop();
 //The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
 
-console.log(fruits, "You have deleted orange");
+console.log(fruits, 'You have deleted the "orange"');
+
 fruits.shift();
 //The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
 console.log(fruits);
-deletedFruits = ["Orange", "Apple"];
+
+let deletedFruits = ["Orange", "Apple"];
 console.log(deletedFruits);
